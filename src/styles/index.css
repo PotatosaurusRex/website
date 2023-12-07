@@ -33,8 +33,9 @@
     margin: 100px;
 }
 
+/** About section here **/
 .about-content {
-    margin: 100px;
+    margin: 50px;
     display: flex;
 }
 

@@ -21,6 +21,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        {/* Footer here */}
       </div>
     </Router>
   );
