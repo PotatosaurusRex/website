@@ -1,15 +1,21 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Project from '../components/Project';
+import {Link} from 'react-router-dom';
+
+import ProjectCard from '../components/ProjectCard';
+import ProjectDetail from '../components/ProjectDetail';
 import projectData from "../helpers/projectData";
 
 export default function Projects() {
     const projects = projectData.map(item => {
         return (
-            <Project 
-                key={item.id}
-                item={item}
-            />
+            // <Link to="/projects/1">
+            <Link to={`/projects/${item.id}`} >
+                <ProjectCard 
+                    key={item.id}
+                    item={item}
+                />
+            </Link>
         )
     })
     return (

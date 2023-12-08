@@ -44,3 +44,31 @@
 .projectCard-thumbnail:hover {
     filter: none;
 }
+
+.projDetail-container {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.projDetail-header {
+    border-bottom-style: solid;
+    border-color: orange;
+    padding: 24px 0px;
+    width: 650px;
+}
+
+.projDetail-content {
+    display: flex;
+    flex-direction:column;
+    padding: 24px 0px;
+    width: 800px;
+}
+
+.projDetail-p {
+    padding: 24px 0px;
+    font-size: larger;
+}
+.projDetail-thumbnail {
+    width: 800px;
+}

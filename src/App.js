@@ -1,11 +1,12 @@
 import React from 'react'; // dunno if needed
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import About from './pages/About';
-import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import ProjectDetail from './components/ProjectDetail';
 
 // export default function App()?
 function App() {
@@ -18,10 +19,13 @@ function App() {
             <Route exact path ="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+          </Routes>
+
+          <Routes>
+            <Route path="/projects/:id" element={<ProjectDetail />} />
           </Routes>
         </div>
-        {/* Footer here */}
+        <Footer />
       </div>
     </Router>
   );
