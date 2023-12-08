@@ -18,7 +18,7 @@ export default function About() {
                     catch me coding at a library or playing violin at the GT Symphony Orchestra.
                 </p>
             </div>
-            <img src={portrait} alt="Portrait" className="portrait"/>
+            <img src={portrait2} alt="Portrait" className="portrait"/>
         </div>
     );
 }
