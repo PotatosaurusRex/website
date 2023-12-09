@@ -52,6 +52,7 @@
     display: flex;
     margin: 50px;
     justify-content: space-between;
+    height: 80vh;
 }
 
 .projDetail-header {
@@ -75,4 +76,5 @@
 
 .projDetail-thumbnail {
     width: 600px;
+    max-height: 400px;;
 }
