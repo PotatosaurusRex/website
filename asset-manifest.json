@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.7a3c43e1.css",
+    "main.js": "/website/static/js/main.3f514565.js",
+    "static/media/Ramblin.png": "/website/static/media/Ramblin.085412b581169b2d9ee8.png",
+    "static/media/background.jpg": "/website/static/media/background.1aea18da84d1be05fd5d.jpg",
+    "static/media/Chatbot.png": "/website/static/media/Chatbot.ef125619fc91230066b9.png",
+    "static/media/portraitgood.jpg": "/website/static/media/portraitgood.0ffc444040e75332743d.jpg",
+    "static/media/Chess.png": "/website/static/media/Chess.ef3cd0beeee6326d5d48.png",
+    "static/media/portrait5.jpg": "/website/static/media/portrait5.4068d60b0233caf4c361.jpg",
+    "static/media/reactjs.png": "/website/static/media/reactjs.09ea234359983a3c8cc1.png",
+    "static/media/python.png": "/website/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/UnityGame.png": "/website/static/media/UnityGame.cc65c216b338695d8f9d.png",
+    "static/media/java.png": "/website/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/c-sharp.png": "/website/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/c-plus.png": "/website/static/media/c-plus.24a8f93854ab092f17a7.png",
+    "static/media/swift.png": "/website/static/media/swift.6b8a2d05a51a52c8ab9b.png",
+    "static/media/portrait6.webp": "/website/static/media/portrait6.df4df5f464cb8eafb7db.webp",
+    "static/media/git.png": "/website/static/media/git.965a71aad6ba8c5826e8.png",
+    "static/media/github.png": "/website/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/instagram.png": "/website/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/lua.png": "/website/static/media/lua.bf939a39c6b1852d6cdc.png",
+    "static/media/CS2340Game.png": "/website/static/media/CS2340Game.f52b5bc6bfc89b144a2b.png",
+    "static/media/gmail.png": "/website/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/linkedin.png": "/website/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/website/index.html",
+    "main.7a3c43e1.css.map": "/website/static/css/main.7a3c43e1.css.map",
+    "main.3f514565.js.map": "/website/static/js/main.3f514565.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a3c43e1.css",
+    "static/js/main.3f514565.js"
+  ]
+}
