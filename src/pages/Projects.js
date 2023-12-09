@@ -9,8 +9,7 @@ import projectData from "../helpers/projectData";
 export default function Projects() {
     const projects = projectData.map(item => {
         return (
-            // <Link to="/projects/1">
-            <Link to={`/projects/${item.id}`} >
+            <Link to={`/projects/${item.id}`}>
                 <ProjectCard 
                     key={item.id}
                     item={item}

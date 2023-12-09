@@ -2,7 +2,7 @@
     border-bottom-style: solid;
     border-color: orange;
     padding: 24px 0px;
-    width: 1250px;
+    width: 1700px;
 }
 
 .project-content {
@@ -15,12 +15,13 @@
 }
 
 .projectCard-content {
-    padding: 5px;
+    padding: 10px;
     display: grid;
-    max-width: 500px;
-    background-color: white;
-    border-radius: 0px;
+    max-width: 700px;
+    background-color: rgba(35, 35, 35, 0.635);
+    border-radius: 10px;
     margin: 50px;
+    overflow:hidden;
 }
 
 .projectCard-title {
@@ -29,6 +30,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: larger;
+    font-weight: bolder;
 }
 
 .p {
@@ -37,8 +39,9 @@
 }
 
 .projectCard-thumbnail {
-    width: 500px;
-    filter: grayscale(100%);
+    width: 700px;
+    border-radius: 10px 10px 0 0;
+    filter: grayscale(30%);
 }
 
 .projectCard-thumbnail:hover {
@@ -69,6 +72,7 @@
     padding: 24px 0px;
     font-size: larger;
 }
+
 .projDetail-thumbnail {
-    width: 800px;
+    width: 600px;
 }

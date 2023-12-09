@@ -1,0 +1,33 @@
+.skills-content {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.skills-content h1 {
+    font-size: xx-large;
+}
+
+.skills-hr {
+    margin: 15px;
+    width: 100px;
+    border: 2px solid orange;
+}
+.skills-bubbles {
+    display: flex;
+    justify-content: center;
+}
+
+.skillBubble-icon-container {
+    background-color: rgba(128, 128, 128, 0.138);
+    margin: 50px;
+    display: block;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.skillBubble-icon {
+    width: 200px;
+}

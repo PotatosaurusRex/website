@@ -2,8 +2,11 @@ import React from 'react';
 import portrait from '../assets/portraitgood.jpg';
 import portrait2 from '../assets/portrait6.webp';
 import portrait3 from '../assets/portrait5.jpg';
+
+import Skills from '../components/Skills';
 export default function About() {
     return (
+    <div>
         <div className="about-content">
             <div>
                 <h1 className="about-header">Hi, my name is Rick Nguyen...</h1>
@@ -20,5 +23,7 @@ export default function About() {
             </div>
             <img src={portrait2} alt="Portrait" className="portrait"/>
         </div>
+        <Skills />
+    </div>
     );
 }
