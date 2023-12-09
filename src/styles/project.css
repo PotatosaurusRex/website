@@ -39,7 +39,7 @@
 }
 
 .projectCard-thumbnail {
-    width: 700px;
+    width: 600px;
     border-radius: 10px 10px 0 0;
     filter: grayscale(30%);
 }
