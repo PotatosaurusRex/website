@@ -4,6 +4,7 @@ import portrait2 from '../assets/portrait6.webp';
 import portrait3 from '../assets/portrait5.jpg';
 
 import Skills from '../components/Skills';
+
 export default function About() {
     return (
     <div>

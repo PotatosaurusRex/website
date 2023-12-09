@@ -1,13 +1,13 @@
 import reactIcon from '../assets/skills/reactjs.png';
 
-export default function SkillBubble() {
+export default function SkillBubble(props) {
     return (
         <div className="skillBubble-container">
             <div className="skillBubble-icon-container">
-                <img src={reactIcon} alt="ReactJS icon" className="skillBubble-icon"/>
+                <img src={props.item.icon} alt="Language icon" className="skillBubble-icon"/>
             </div>
-            <h3>ReactJS</h3>
-            <p>Intermediate</p>
+            <h3>{props.item.language}</h3>
+            <p>{props.item.level}</p>
         </div>
     );
 }
