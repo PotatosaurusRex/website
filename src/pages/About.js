@@ -12,8 +12,8 @@ export default function About() {
             <div>
                 <h1 className="about-header">Hi, my name is Rick Nguyen...</h1>
                 <p className="about-p">
-                    I am a 2nd year CM major at Georgia Tech
-                    with threads in Media and Game Design. In the past, I have worked
+                    I am a 2nd year CS major at Georgia Tech
+                    with threads in Media and Info/Internetworks. In the past, I have worked
                     as a tutor at my local university to help students with subjects like
                     math, chemistry, and computer science. I also occasionally visit my
                     local high school to provide one-to-one music lessons with the 

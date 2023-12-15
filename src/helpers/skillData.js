@@ -37,7 +37,7 @@ export default [
         id: 5,
         icon: python,
         language: "Python",
-        level: "Advanced"
+        level: "Intermediate"
     },
     {
         id: 6,
@@ -49,7 +49,7 @@ export default [
         id: 7,
         icon: lua,
         language: "Lua",
-        level: "Advanced"
+        level: "Intermediate"
     },
     {
         id: 8,
